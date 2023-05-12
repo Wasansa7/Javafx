@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="841.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.Trailer2Controller">
+ <children>
+      <Pane prefHeight="200.0" prefWidth="844.0" style="-fx-background-color: #111111;">
+         <children>
+            <MediaView fx:id="mediaView" fitHeight="640.0" fitWidth="844.0" />
+            <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="367.0" layoutY="481.0" opacity="0.5" pickOnBounds="true">
+               <image>
+                  <Image url="@play.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="28.0" layoutX="448.0" layoutY="489.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@reset.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="35.0" layoutX="410.0" layoutY="488.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pause.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="playButton" layoutX="371.0" layoutY="485.0" mnemonicParsing="false" onAction="#playMedia" opacity="0.0" prefHeight="37.0" prefWidth="30.0" textFill="#720606">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="pauseButton" layoutX="411.0" layoutY="485.0" mnemonicParsing="false" onAction="#pauseMedia" opacity="0.0" prefHeight="37.0" prefWidth="28.0" textFill="#720606">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="resetButton" layoutX="447.0" layoutY="481.0" mnemonicParsing="false" onAction="#resetMedia" opacity="0.0" prefHeight="44.0" prefWidth="30.0" />
+            <Button fx:id="backButton" layoutX="734.0" layoutY="485.0" mnemonicParsing="false" onAction="#back" opacity="0.49" prefHeight="37.0" prefWidth="96.0" text="Back">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

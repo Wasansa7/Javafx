@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="825.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.MangerAddScreenController">
+    <children>
+      <Pane prefHeight="825.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="825.0" fitWidth="530.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pic5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageadd" fitHeight="234.0" fitWidth="200.0" layoutX="166.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="200.0" layoutY="413.0" opacity="0.79" text="Write a descraption" textFill="#a84b4b" />
+            <Button fx:id="chooseimage" layoutX="201.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleButtonAction" opacity="0.58" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: #e0cfb8;" text="Choose image " />
+            <Label layoutX="163.0" layoutY="295.0" opacity="0.66" text="Please choose image for movie" textFill="#a84b4b">
+               <font>
+                  <Font name="Akhbar MT" size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="textdes" layoutX="99.0" layoutY="448.0" prefHeight="131.0" prefWidth="331.0" />
+            <ImageView fitHeight="313.0" fitWidth="228.0" layoutX="135.0" layoutY="587.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pic1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="249.0" layoutY="743.0" text="movie">
+               <font>
+                  <Font name="Curlz MT" size="35.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.6504854368932038" startX="0.5194174757281553">
+                     <stops>
+                        <Stop color="#79154c" />
+                        <Stop color="#e1439c" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="203.0" layoutY="688.0" text="C" textFill="#78164d">
+               <font>
+                  <Font name="Curlz MT" size="100.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="39.0" fitWidth="35.0" layoutX="28.0" layoutY="763.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="13.0" layoutY="748.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="62.0" prefWidth="75.0" />
+              <Button fx:id="addbutton" defaultButton="true" graphicTextGap="9.0" layoutX="229.0" layoutY="632.0" lineSpacing="10.0" mnemonicParsing="false" onAction="#addaction" opacity="0.73" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: #ffffff;" text="Add" textAlignment="CENTER" textFill="#a84b4b" textOverrun="LEADING_ELLIPSIS">
+                  <font>
+                      <Font name="Andale Mono" size="14.0" />
+                  </font>
+              </Button>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

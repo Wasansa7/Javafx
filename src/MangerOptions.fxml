@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="825.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.MangerOptionsController">
+   <children>
+      <Pane prefHeight="825.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="825.0" fitWidth="530.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pic5.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f7f8" height="543.0" layoutX="91.0" layoutY="141.0" stroke="#f5f7f8" strokeType="INSIDE" style="-fx-arc-height: 85; -fx-arc-width: 85;" width="348.0" />
+            <Label layoutX="131.0" layoutY="319.0" text="what do you want to do" textFill="#78174eb6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="318.0" fitWidth="319.0" layoutX="154.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="addButton" layoutX="193.0" layoutY="501.0" mnemonicParsing="false" onAction="#addScreen" style="-fx-background-color: #FFFFFF;" text="add screens">
+               <font>
+                  <Font name="Garamond" size="23.0" />
+               </font></Button>
+            <Button fx:id="showButton" layoutX="186.0" layoutY="413.0" mnemonicParsing="false" onAction="#showScreens" style="-fx-background-color: #FFFFFF;" text="show screens">
+               <font>
+                  <Font name="Garamond" size="23.0" />
+               </font></Button>
+            <ImageView fitHeight="198.0" fitWidth="363.0" layoutX="79.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Untitled%2016.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="244.0" layoutY="751.0" text="movie">
+               <font>
+                  <Font name="Curlz MT" size="32.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.6407766990291263" startY="0.46116504854368934">
+                     <stops>
+                        <Stop color="#79154c" />
+                        <Stop color="#f834a3" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="204.0" layoutY="711.0" text="C" textFill="#79154c">
+               <font>
+                  <Font name="Curlz MT" size="76.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="28.0" fitWidth="33.0" layoutX="22.0" layoutY="762.0" onDragDetected="#back" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="22.0" layoutY="753.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="49.0" prefWidth="33.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

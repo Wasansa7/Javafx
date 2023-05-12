@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="825.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.CkeckoutController">
+  <children>
+      <Pane prefHeight="825.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="825.0" fitWidth="530.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pic5.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f7f8" height="512.0" layoutX="77.0" layoutY="131.0" stroke="#f5f7f8" strokeType="INSIDE" style="-fx-arc-height: 85; -fx-arc-width: 85;" width="379.0" />
+              <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="3.0" layoutX="147.0" layoutY="216.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="36.0" prefWidth="238.0" text="C K E C K O U T" textAlignment="CENTER">
+                  <font>
+                      <Font size="25.0" />
+                  </font>
+              </Label>
+              <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="125.0" layoutY="314.0" lineSpacing="4.0" prefHeight="27.0" prefWidth="66.0" text="TIME :" textAlignment="CENTER" textFill="#161717">
+                  <font>
+                      <Font size="17.0" />
+                  </font>
+              </Label>
+              <Label layoutX="134.0" layoutY="399.0" prefHeight="27.0" prefWidth="55.0" text="DATE :" textAlignment="CENTER" textFill="#202122">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+              <DatePicker editable="false" layoutX="279.0" layoutY="397.0" prefHeight="27.0" prefWidth="161.0" showWeekNumbers="true" style="-fx-background-color: #FFFFF1;">
+               <effect>
+                  <Reflection />
+               </effect>
+            </DatePicker>
+            <ComboBox fx:id="timeBox" layoutX="285.0" layoutY="312.0" prefWidth="150.0" />
+            <Label layoutX="214.0" layoutY="718.0" text="C" textFill="#79154c">
+               <font>
+                  <Font name="Curlz MT" size="75.0" />
+               </font>
+            </Label>
+            <Label layoutX="253.0" layoutY="753.0" text="movie">
+               <font>
+                  <Font name="Curlz MT" size="30.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7864077669902912" startY="0.3883495145631068">
+                     <stops>
+                        <Stop color="#79154c" />
+                        <Stop color="#fc44ac" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fitHeight="367.0" fitWidth="172.0" layoutX="158.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="32.0" layoutY="766.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="25.0" layoutY="741.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="68.0" prefWidth="65.0" />
+              <Button fx:id="payeng" defaultButton="true" graphicTextGap="9.0" layoutX="215.0" layoutY="559.0" lineSpacing="10.0" mnemonicParsing="false" onAction="#paying" opacity="0.79" prefHeight="37.0" prefWidth="104.0" style="-fx-background-color: #ffffff;" text="Paying" textAlignment="CENTER" textFill="#101011" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font size="16.0" />
+               </font>
+              </Button>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

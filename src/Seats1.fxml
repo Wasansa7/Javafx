@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.Seats1Controller">
+    <children>
+        <ImageView fx:id="img" fitHeight="638.0" fitWidth="723.0" layoutX="-1.0" layoutY="-5.0" pickOnBounds="true">
+            <image>
+                <Image url="@pic5.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="textE" fill="#6e124c" layoutX="72.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Line endX="550.0" layoutX="173.0" layoutY="275.0" startX="-174.0" startY="-1.52587890625E-5" stroke="#766c6c" />
+        <Rectangle fx:id="bigRec" arcHeight="5.0" arcWidth="5.0" fill="#bec0c1" height="50.0" layoutX="169.0" layoutY="-1.0" stroke="#51062d" strokeType="INSIDE" width="423.0" />
+        <Text fx:id="textScreen" fill="#631439" layoutX="347.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Screen">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fx:id="textF" fill="#6e124c" layoutX="73.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="68.0" fitWidth="59.0" layoutX="157.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="D1" layoutX="150.0" layoutY="66.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: #afb4b9;" text="D1" textFill="#9e306f" />
+      <ImageView fitHeight="49.0" fitWidth="59.0" layoutX="251.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="D2" layoutX="246.0" layoutY="66.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="68.0" style="-fx-background-color: #afb4b9;" text="D2" textFill="#9e306f" />
+      <ImageView fitHeight="62.0" fitWidth="59.0" layoutX="344.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="D3" layoutX="339.0" layoutY="66.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="68.0" style="-fx-background-color: #afb4b9;" text="D3" textFill="#9e306f" />
+      <ImageView fitHeight="49.0" fitWidth="86.0" layoutX="430.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="D4" layoutX="423.0" layoutY="66.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: #afb4b9;" text="D4" textFill="#9e306f" />
+      <ImageView fitHeight="50.0" fitWidth="61.0" layoutX="518.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="D5" layoutX="512.0" layoutY="66.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: #afb4b9;" text="D5" textFill="#9e306f" />
+      <ImageView fitHeight="49.0" fitWidth="56.0" layoutX="145.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="C1" layoutX="132.0" layoutY="113.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="C1" textFill="#9e306f" />
+      <ImageView fitHeight="50.0" fitWidth="72.0" layoutX="246.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="C2" layoutX="233.0" layoutY="111.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="47.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="C2" textFill="#9e306f" />
+      <ImageView fitHeight="49.0" fitWidth="59.0" layoutX="344.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="C3" layoutX="333.0" layoutY="113.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="C3" textFill="#9e306f" />
+      <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="441.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="C4" layoutX="427.0" layoutY="113.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="C4" textFill="#9e306f" />
+      <ImageView fitHeight="69.0" fitWidth="61.0" layoutX="538.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="C5" layoutX="524.0" layoutY="113.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="C5" textFill="#9e306f" />
+      <ImageView fitHeight="47.0" fitWidth="72.0" layoutX="131.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="B1" layoutX="112.0" layoutY="161.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: #afb4b9;" text="B1" textFill="#9e306f" />
+      <ImageView fitHeight="47.0" fitWidth="56.0" layoutX="233.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="B2" layoutX="218.0" layoutY="161.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="B2" textFill="#9e306f" />
+      <ImageView fitHeight="59.0" fitWidth="61.0" layoutX="345.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="B3" layoutX="327.0" layoutY="161.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: #afb4b9;" text="B3" textFill="#9e306f" />
+      <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="447.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="B4" layoutX="429.0" layoutY="161.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: #afb4b9;" text="B4" textFill="#9e306f" />
+      <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="554.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="B5" layoutX="537.0" layoutY="161.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="86.0" style="-fx-background-color: #afb4b9;" text="B5" textFill="#9e306f" />
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="115.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="A1" layoutX="96.0" layoutY="213.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #afb4b9;" text="A1" textFill="#9e306f" />
+      <ImageView fitHeight="67.0" fitWidth="61.0" layoutX="231.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="A2" layoutX="208.0" layoutY="213.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #afb4b9;" text="A2" textFill="#9e306f" />
+      <ImageView fitHeight="72.0" fitWidth="61.0" layoutX="345.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="A3" layoutX="323.0" layoutY="213.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #afb4b9;" text="A3" textFill="#9e306f" />
+      <ImageView fitHeight="63.0" fitWidth="61.0" layoutX="465.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="A4" layoutX="441.0" layoutY="213.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #afb4b9;" text="A4" textFill="#9e306f" />
+      <ImageView fitHeight="72.0" fitWidth="60.0" layoutX="580.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@chair.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="A5" layoutX="557.0" layoutY="213.0" mnemonicParsing="false" onAction="#chooseSeat" opacity="0.3" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #afb4b9;" text="A5" textFill="#9e306f" />
+        <Text layoutX="48.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="textTickers" fill="#810649" layoutX="18.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tickets:" wrappingWidth="71.99999999999989">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Text>
+        <Text fx:id="textStats" fill="#810649" layoutX="24.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seats:" wrappingWidth="60.92431640625">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Text>
+        <Label fx:id="moviename" layoutX="108.0" layoutY="312.0" prefHeight="20.0" prefWidth="158.0" text="ONE PIECE FILM RED" textFill="#766c6c">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="tickets" layoutX="103.0" layoutY="360.0" prefHeight="26.0" prefWidth="72.0">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="seatsSelected" layoutX="83.0" layoutY="397.0" prefHeight="27.0" prefWidth="288.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="cancle" layoutX="406.0" layoutY="504.0" mnemonicParsing="false" onAction="#doCancel" onMouseExited="#mouseExit" onMouseMoved="#mouseMove" prefHeight="37.0" prefWidth="106.0" text="CANCEL" textFill="#9e306f" />
+        <Button fx:id="confirmation" layoutX="537.0" layoutY="504.0" mnemonicParsing="false" onAction="#doConfirmation" onMouseExited="#mouseExit" onMouseMoved="#mouseMove" prefHeight="37.0" prefWidth="158.0" text="CONFIRMATION" textFill="#9e306f" />
+        <Text fx:id="textAvail" layoutX="633.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available" wrappingWidth="56.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text fx:id="textSelct" layoutX="635.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selected">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text fx:id="textSold" layoutX="644.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sold" wrappingWidth="33.6754150390625">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Rectangle fx:id="Rec_Sold" arcHeight="5.0" arcWidth="5.0" fill="#fc3f3f" height="37.0" layoutX="568.0" layoutY="402.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+        <Rectangle fx:id="Rec_Avail" arcHeight="5.0" arcWidth="5.0" fill="#afb4b9" height="37.0" layoutX="568.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+        <Rectangle fx:id="Rec_Select" arcHeight="5.0" arcWidth="5.0" fill="#70b3f2" height="37.0" layoutX="568.0" layoutY="354.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+        <Text layoutX="48.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text layoutX="48.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="textMovie" fill="#810649" layoutX="24.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie:">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+        </Text>
+        <Label fx:id="TOT" layoutX="66.0" layoutY="320.0" prefHeight="37.0" prefWidth="56.0" />
+        <Button fx:id="choose" layoutX="18.0" layoutY="501.0" mnemonicParsing="false" onAction="#doChooseSeats" onMouseExited="#mouseExit" onMouseMoved="#mouseMove" prefHeight="43.0" prefWidth="170.0" text="Choose the seat" textFill="#9e306f" />
+        <Text fill="#79154c" layoutX="306.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C">
+            <font>
+                <Font name="Curlz MT" size="75.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="246.0" fitWidth="164.0" layoutX="265.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pic1.png" />
+            </image>
+        </ImageView>
+        <Text layoutX="342.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="movie">
+            <font>
+                <Font name="Curlz MT" size="30.0" />
+            </font>
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.4745098054409027" green="0.08235294371843338" blue="0.2980392277240753" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.18304172274562583">
+                            <color>
+                                <Color red="0.4745098054409027" green="0.08235294371843338" blue="0.2980392277240753" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.9882352948188782" green="0.2666666805744171" blue="0.6745098233222961" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Text>
+        <Text fx:id="textE1" fill="#6e124c" layoutX="73.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="textE2" fill="#6e124c" layoutX="73.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+      <Text fill="#810649" layoutX="23.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total:">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Label fx:id="tot" layoutX="95.0" layoutY="439.0" prefHeight="26.0" prefWidth="72.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>

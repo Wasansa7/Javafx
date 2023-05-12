@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="825.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectallmyscens.DoneController">  
+ <children>
+      <Pane prefHeight="825.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="825.0" fitWidth="530.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pic5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageanimations" fitHeight="623.0" fitWidth="445.0" layoutX="103.0" layoutY="-242.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic4.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="220.0" layoutY="413.0" prefHeight="21.0" prefWidth="115.0" text="SUCCESSFUL !" />
+            <Label layoutX="104.0" layoutY="452.0" opacity="0.61" prefHeight="21.0" prefWidth="334.0" text="Your tiket booking details have been send to your " />
+            <Label layoutX="202.0" layoutY="483.0" opacity="0.63" prefHeight="21.0" prefWidth="139.0" text="registered email ID" />
+            <Label layoutX="202.0" layoutY="76.0" text="C">
+               <font>
+                  <Font name="Curlz MT" size="85.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#79154c" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="236.0" layoutY="108.0" text="movie">
+               <font>
+                  <Font name="Curlz MT" size="41.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.3932038834951456" endY="0.6116504854368933" proportional="false" startX="0.25728155339805825">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#9c2287e3" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fitHeight="331.0" fitWidth="343.0" layoutX="155.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="909.0" fitWidth="446.0" layoutX="71.0" layoutY="-178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="874.0" fitWidth="409.0" layoutX="51.0" layoutY="-99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
